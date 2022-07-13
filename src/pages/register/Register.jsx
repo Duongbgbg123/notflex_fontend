@@ -21,7 +21,7 @@ export default function Register() {
     setPassword(passwordRef.current.value);
     setUsername(usernameRef.current.value);
     try {
-      await axios.post('api/auth/register', {
+      await axios.post('https://notflex.herokuapp.com/api/auth/register', {
         email,
         username,
         password,
