@@ -1,0 +1,26 @@
+.pagination-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top : 20px;
+    .btn-prev{
+        border: 0;
+        background-color: inherit;
+        .prev-icon{
+            cursor: pointer;
+            font-size: 50px;
+            color: white;
+            
+        }
+    }
+    .btn-next{
+        border: 0;
+        background-color: inherit;
+        .next-icon{
+            cursor: pointer;
+            font-size: 50px;
+            color: white;
+            
+        }
+    }
+}
